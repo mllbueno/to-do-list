@@ -6,8 +6,8 @@ const Form = (props) => {
 
     return (
         <form>
-            <input type="text" className="todo-input" onChange={ev => onInputChange(ev.target.value)}/>
-            <button className="todo-button"  type="submit">
+            <input type="text" value={props.inputText} className="todo-input" onChange={ev => onInputChange(ev.target.value)}/>
+            <button className="todo-button" type="submit" onClick={(e) => props.handleAddTodoClick(e)}>
                 <i className="fas fa-plus-square"></i>
             </button>
             <div className="select">
