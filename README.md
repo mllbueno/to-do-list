@@ -21,7 +21,7 @@ npm test
 ├── public
 ├── src
 │   └──__test__      // Arquivos de teste
-│   └── assets       //images
+│   └── assets       // Images e gifs
 │   └── components   // Components usados para criação das páginas
 │       ├── Form
 │       ├── Todo
@@ -35,10 +35,20 @@ npm test
 
 ## Funcionalidades
 
-- [ ] Quando o usuário escrever algo no input principal e clicar no botão + ou dar um enter, precisamos atualizar a lista de tarefas e mostrar na tela
-- [ ] As tarefas podem ser filtradas na caixinha à direita do input
-- [ ] Testes :sparkling_heart:
+1.  Quando o usuário escrever algo e clicar no botão + ou der um enter, precisamos adicionar a tafera na lista.
+    ![adding to-dos](https://github.com/mllbueno/to-do-list/blob/master/src/assets/adding-todos.gif?raw=true)
 
-## Mãos na massa
+2.  Podemos concluir e excluir uma tarefa na lista. A classe css de uma tarefa concluída é "completed".
+    ![filter options](https://github.com/mllbueno/to-do-list/blob/master/src/assets/completing-and-deleting.gif?raw=true)
 
-This project was created with [Create React App](https://github.com/facebook/create-react-app).
+3.  As tarefas podem ser filtradas de acordo com seu status.  
+    ![filter options](https://github.com/mllbueno/to-do-list/blob/master/src/assets/filters.gif?raw=true)
+
+4.  Testes :sparkling_heart:
+
+## Bibliotecas e extensões
+
+Algumas sugestões que podem facilitar seu desenvolvimento:
+
+1. [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
+2. [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
