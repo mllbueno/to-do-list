@@ -52,3 +52,7 @@ Algumas sugestões que podem facilitar seu desenvolvimento:
 
 1. [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
 2. [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
+
+## Creditos
+
+Todo o html e css base foi feito pelo [@developedbyed](https://github.com/developedbyed) :sparkling_heart: awesome developer AND designer
